@@ -31,7 +31,7 @@ let passwordGenerator = `
 
 `;
 
-console.log(passwordGenerator)
+console.log("generatore di password:"+" "+ passwordGenerator);
 
 //aggiungo nell html
 document.getElementById("password").innerText = passwordGenerator;
